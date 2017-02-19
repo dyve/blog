@@ -2,20 +2,20 @@ sudo: required
 
 language: go
 
-install: go get -v github.com/spf13/hugo
+install:
+  - sudo pip install Pygments
+  - go get github.com/spf13/hugo
 
 addons:
   ssh_known_hosts: box.dylanverheul.com
 
 before_deploy:
-- openssl aes-256-cbc aes-256-cbc -K $encrypted_<...>_key -iv $encrypted_<...>_iv -in deploy_rsa.enc -out /tmp/deploy_rsa -d
-- eval "$(ssh-agent -s)"
-- chmod 600 /tmp/deploy_rsa
-- ssh-add /tmp/deploy_rsa
+  - openssl aes-256-cbc aes-256-cbc -K $encrypted_<...>_key -iv $encrypted_<...>_iv -in deploy_rsa.enc -out /tmp/deploy_rsa -d
+  - eval "$(ssh-agent -s)"
+  - chmod 600 /tmp/deploy_rsa
+  - ssh-add /tmp/deploy_rsa
 
 script:
-  - python --version
-  - sudo pip install Pygments
   - hugo
 
 notifications:
