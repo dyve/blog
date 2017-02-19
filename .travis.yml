@@ -18,6 +18,13 @@ before_deploy:
 script:
   - hugo
 
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/public dylan@box.dylanverheul.com:/home/user-data/www/dyve.net
+  on:
+    branch: master
+
 notifications:
     email:
         on_failure: always
