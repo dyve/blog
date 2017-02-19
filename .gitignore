@@ -1,4 +1,11 @@
+# Editors
 .idea
+
+# Local Python version
 .python-version
 
+# Local Ruby version
+.ruby-version
+
+# Output dir
 public/
