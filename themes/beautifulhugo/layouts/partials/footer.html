@@ -1,0 +1,138 @@
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          {{ if .Site.Author.facebook }}
+          <li>
+            <a target="_blank" href="https://www.facebook.com/{{ .Site.Author.facebook }}" title="Facebook">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {{ end }}
+          {{ if .Site.Author.github }}
+          <li>
+            <a target="_blank" href="https://github.com/{{ .Site.Author.github }}" title="GitHub">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {{ end }}
+		      {{ if .Site.Author.twitter }}
+          <li>
+            <a target="_blank" href="https://twitter.com/{{ .Site.Author.twitter }}" title="Twitter">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {{ end }}
+		      {{ if .Site.Author.email }}
+          <li>
+            <a href="mailto:{{ .Site.Author.email }}" title="Email me">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {{ end }}
+		      {{ if .Site.Author.linkedin }}
+          <li>
+            <a target="_blank" href="https://linkedin.com/{{ .Site.Author.linkedin }}" title="LinkedIn">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {{ end }}
+	    	  {{ if .Site.Author.stackoverflow }}
+          <li>
+            <a target="_blank" href="https://stackoverflow.com/{{ .Site.Author.stackoverflow }}" title="StackOverflow">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {{ end }}
+          {{ if .Site.Author.soundcloud }}
+          <li>
+            <a target="_blank" href="https://soundcloud.com/{{ .Site.Author.soundcloud }}" title="SoundCloud">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-soundcloud fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {{ end }}
+          {{ if .Site.Author.wikipedia }}
+          <li>
+            <a target="_blank" href="https://wikipedia.org/wiki/{{ .Site.Author.wikipedia }}" title="Wikipedia">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-wikipedia-w fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {{ end }}
+
+    		  <li>
+      			<a href="{{ .Site.BaseURL}}index.xml" title="RSS">
+      			  <span class="fa-stack fa-lg">
+        				<i class="fa fa-circle fa-stack-2x"></i>
+        				<i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+      			  </span>
+      			</a>
+    		  </li>
+
+        </ul>
+        <p class="credits copyright text-muted">
+            Copyright &copy;
+    	    {{ .Site.Author.name }}
+    	    {{ .Site.LastChange.Format "2006" }}
+            &nbsp;&bull;&nbsp;
+            License for content is
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC-BY</a>
+  	    </p>
+  	    <!-- Please don't remove this, keep my open source work credited :) -->
+    	<p class="credits theme-by text-muted">
+          Powered by <a href="http://gohugo.io">Hugo v{{ .Hugo.Version }}</a>
+            &nbsp;&bull;&nbsp;
+            Theme based on <a href="https://github.com/1138-4EB/beautifulhugo">Beautiful Hugo</a> and <a href="http://deanattali.com/beautiful-jekyll/">beautiful-jekyll</a>.
+          {{ with .Site.Params.commit }}&nbsp;&bull;&nbsp;[<a href="{{.}}{{ getenv "GIT_COMMIT_SHA" }}">{{ getenv "GIT_COMMIT_SHA_SHORT" }}</a>]{{ end }}
+    	</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="{{ .Site.BaseURL }}/js/jquery-1.11.2.min.js"></script>
+<script src="{{ .Site.BaseURL }}/js/bootstrap.min.js"></script>
+<script src="{{ .Site.BaseURL }}/js/main.js"></script>
+
+{{ template "_internal/google_analytics.html" . }}
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+    var sc_project=11257002;
+    var sc_invisible=1;
+    var sc_security="2d6d3eef";
+    var scJsHost = (("https:" == document.location.protocol) ?
+        "https://secure." : "http://www.");
+    document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
+        "statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web statistics"
+                                      href="http://statcounter.com/" target="_blank"><img class="statcounter"
+                                                                                          src="//c.statcounter.com/11257002/0/2d6d3eef/1/" alt="web
+statistics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+

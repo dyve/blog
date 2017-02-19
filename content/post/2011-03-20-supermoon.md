@@ -1,0 +1,22 @@
++++
+date = "2011-03-20T07:51:00+00:00"
+draft = true
+tags = ["JustMigrate", "astronomy", "digiscoping", "moon", "photography", "supermoon"]
+title = "Supermoon"
++++
+<p>Some pictures of the March 19 "supermoon", taken from my home in The Netherlands.</p>
+<p><div class='p_embed p_image_embed'>
+<a href="http://getfile5.posterous.com/getfile/files.posterous.com/dyve/1W1xrAj9yoKXe7L9WkpLP2BKzUiawe0QRLIqiZwiDFNpLPP3tnxjhNf49zUY/DSCN5381.jpg.scaled.1000.jpg"><img alt="Dscn5381"  src="http://getfile4.posterous.com/getfile/files.posterous.com/dyve/5OTAexyuIjuDrPjPtrUkcmAEguUtt85eH0H4qzXcyDZHjYzqN9hW8ahgNYkR/DSCN5381.jpg.scaled.500.jpg"  /></a>
+<a href="http://getfile0.posterous.com/getfile/files.posterous.com/dyve/WovArELZ5relCH3l8lrUK7MMfJifkqr8XB6lXdOArtPKyfdBTv0eMEGm8CIS/DSCN5380.jpg.scaled.1000.jpg"><img alt="Dscn5380"  src="http://getfile9.posterous.com/getfile/files.posterous.com/dyve/QLGIH1NLmS5BQFkpn7RxXqwn55dlZti6xdCkAiE5zexQQQVwBR55lwGULLXQ/DSCN5380.jpg.scaled.500.jpg"  /></a>
+<a href="http://getfile5.posterous.com/getfile/files.posterous.com/dyve/yWesLysuvmhiYph6jkN51kPC5bFdIyAa2KFd0RaPqkZvGRedvVjjBn8zSawB/DSCN5384.jpg.scaled.1000.jpg"><img alt="Dscn5384"  src="http://getfile4.posterous.com/getfile/files.posterous.com/dyve/y4SoJpB6VZ4xcmTY1nkPmCJBoy1d6H3Wbnxwr2FTOMUs3zdEQXLiSYFQDA7x/DSCN5384.jpg.scaled.500.jpg"  /></a>
+<a href="http://getfile0.posterous.com/getfile/files.posterous.com/dyve/vqVHq4C1jmze5Ll2j8M109hA1ut21qFZqIs5WGgRPvqaGjs53Wtzw4lVrxzy/DSCN5376.jpg.scaled.1000.jpg"><img alt="Dscn5376"  src="http://getfile9.posterous.com/getfile/files.posterous.com/dyve/hAmVay95yEhazu9tcvT7M0uu70emuCmRkN2umukf3GaFEjvNfsu37uFU0Mkj/DSCN5376.jpg.scaled.500.jpg"  /></a>
+<a href="http://getfile5.posterous.com/getfile/files.posterous.com/dyve/Tk9BpsQFGxrxziB8v5eTpmWJCdUcHIupJNOthiSdnKf5z9ZoYojJrnMtSSQ8/DSCN5368.jpg.scaled.1000.jpg"><img alt="Dscn5368"  src="http://getfile4.posterous.com/getfile/files.posterous.com/dyve/w3dKdr7RrhkqjiPHZtCEVSjzdLW7Cx7XPHqh3ndCSVQHrhef0uI8JxIJe7Yo/DSCN5368.jpg.scaled.500.jpg"  /></a>
+<a href="http://getfile0.posterous.com/getfile/files.posterous.com/dyve/Yvd9lMbGPHqnSJYamGBV7PlHSdBb5VRTEEC45a6ZPvgKhm3Gae07wv317kpX/DSCN5372.jpg.scaled.1000.jpg"><img alt="Dscn5372"  src="http://getfile9.posterous.com/getfile/files.posterous.com/dyve/xmlAXko7nuXUnTspX0sn8P4c8lBVWC4JoNmdKHBMb6y0Ojf1o5MHcStNEszt/DSCN5372.jpg.scaled.500.jpg"  /></a>
+<a href="http://getfile5.posterous.com/getfile/files.posterous.com/dyve/PzM7A2l6dNoLV0MXAv3XMIXSBt4767DsRiMAj3gPmyr744klh0j71gA36sFy/DSCN5385.jpg.scaled.1000.jpg"><img alt="Dscn5385"  src="http://getfile4.posterous.com/getfile/files.posterous.com/dyve/iwWN51iLzqXkNMNjSkzNDrwCQutOHa1Y4nwfi0JE4Hq9VcAaKQrr5AWMyLKE/DSCN5385.jpg.scaled.500.jpg"  /></a>
+<a href="http://getfile0.posterous.com/getfile/files.posterous.com/dyve/hTV1Kf3X0chSaQa2PN4ADM1qyErBbh9h7KKA9kSgNUu6emtUPCAEO3Zxd42C/DSCN5370.jpg.scaled.1000.jpg"><img alt="Dscn5370"  src="http://getfile9.posterous.com/getfile/files.posterous.com/dyve/3HdV8DYQbe4HWKuh1YXMk8taXg6x5lZrckepsBqi1leQuqK8SRPn9xseiVxl/DSCN5370.jpg.scaled.500.jpg"  /></a>
+<a href="http://getfile5.posterous.com/getfile/files.posterous.com/dyve/whUIUvh6pT8eplpZfExJECXg2fYTwMBHRtgsbsTUmi28eiWvNrl0blxamaDL/DSCN5383.jpg.scaled.1000.jpg"><img alt="Dscn5383"  src="http://getfile4.posterous.com/getfile/files.posterous.com/dyve/L43nQVvMlgnb2IEVtyfc7lrOoxTMwnYndUN8p3YVENuuUF2ZUIBfsKesyL8q/DSCN5383.jpg.scaled.500.jpg"  /></a>
+<a href="http://getfile0.posterous.com/getfile/files.posterous.com/dyve/LmITSM3YBLtbcnCyXXHI0BBsPcGh2G8eb93ndGqRib9lVljexz7JWzIaMUFQ/DSCN5377.jpg.scaled.1000.jpg"><img alt="Dscn5377"  src="http://getfile9.posterous.com/getfile/files.posterous.com/dyve/iAkDuEwN31Hq9JbE6MQMFrdH6ym4SJZVbGWjm3ueezVlUQIy9uaIq9pZos54/DSCN5377.jpg.scaled.500.jpg"  /></a>
+<div class='p_see_full_gallery'><a href="http://blog.dyve.net/supermoon">See the full gallery on Posterous</a></div>
+</div>
+</p>
+<p>I used a <a href="http://imaging.nikon.com/products/imaging/lineup/digitalcamera/coolpix/performance/p5000/" target="_blank">Nikon P5000</a> compact camera mounted on a Leica APO 77 Televid spotting scope. The scope is mean for birdwatching, but it's not bad for an occasional look at the skies. The scope was set to 20x magnification, camera's optical zoom varies per shot, as does shutter time and other settings (I tried to capture both the details of the moon's surface as well as the stunning brightness of the supermoon, so I experimented).</p>

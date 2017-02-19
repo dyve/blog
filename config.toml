@@ -1,0 +1,34 @@
+baseurl = "https://dyve.net"
+languageCode = "en-us"
+title = "dyve.net"
+theme = "beautifulhugo"
+pygmentsUseClasses = true
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+  subtitle = "Personal Blog"
+  logo = "img/avatar_outdoor.png"
+  favicon = "img/favicon.ico"
+  commit = false
+
+[Author]
+  name = "Dylan Verheul"
+  email = "dylan@dyve.net"
+#  facebook = "username"
+  github = "dyve"
+  twitter = "dyve"
+  linkedin = "in/dylanverheul"
+  stackoverflow = "users/117831/dyve"
+#  soundcloud = "username"
+#  wikipedia = "User:username"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 3
