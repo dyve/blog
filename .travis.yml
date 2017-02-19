@@ -1,3 +1,5 @@
+sudo: required
+
 language: go
 
 install: go get -v github.com/spf13/hugo
@@ -13,7 +15,7 @@ before_deploy:
 
 script:
   - python --version
-  - pip install Pygments
+  - sudo pip install Pygments
   - hugo
 
 notifications:
