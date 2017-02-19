@@ -120,19 +120,32 @@
 
 {{ template "_internal/google_analytics.html" . }}
 
+<!-- Open external links in a new tab/window -->
+<script>
+    $(function () {
+        var a = new RegExp('/' + window.location.host + '/');
+        $('a').each(function () {
+            if (!a.test(this.href)) {
+                $(this).attr("target", "_blank");
+            }
+        });
+    });
+</script>
+
 <!-- Start of StatCounter Code for Default Guide -->
 <script type="text/javascript">
-    var sc_project=11257002;
-    var sc_invisible=1;
-    var sc_security="2d6d3eef";
-    var scJsHost = (("https:" == document.location.protocol) ?
-        "https://secure." : "http://www.");
-    document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
-        "statcounter.com/counter/counter.js'></"+"script>");
+    var sc_project = 11257002;
+    var sc_invisible = 1;
+    var sc_security = "2d6d3eef";
+    var scJsHost = (("https:" == document.location.protocol) ? "https://secure." : "http://www.");
+    document.write(["<sc", "ript type='text/javascript' src='", scJsHost,
+        "statcounter.com/counter/counter.js'></" + "script>"].join(""));
 </script>
-<noscript><div class="statcounter"><a title="web statistics"
-                                      href="http://statcounter.com/" target="_blank"><img class="statcounter"
-                                                                                          src="//c.statcounter.com/11257002/0/2d6d3eef/1/" alt="web
-statistics"></a></div></noscript>
+<noscript>
+    <div class="statcounter">
+        <a title="web statistics" href="http://statcounter.com/" target="_blank">
+            <img class="statcounter" src="//c.statcounter.com/11257002/0/2d6d3eef/1/" alt="web statistics">
+        </a>
+    </div>
+</noscript>
 <!-- End of StatCounter Code for Default Guide -->
-
