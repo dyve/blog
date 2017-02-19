@@ -1,3 +1,7 @@
+language: go
+
+install: go get -v github.com/spf13/hugo
+
 addons:
   ssh_known_hosts: box.dylanverheul.com
 
@@ -6,3 +10,12 @@ before_deploy:
 - eval "$(ssh-agent -s)"
 - chmod 600 /tmp/deploy_rsa
 - ssh-add /tmp/deploy_rsa
+
+script:
+  - hugo
+  - python --version
+  - sudo pip install Pygments
+
+notifications:
+    email:
+        on_failure: always
