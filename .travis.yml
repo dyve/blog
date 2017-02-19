@@ -12,9 +12,9 @@ before_deploy:
 - ssh-add /tmp/deploy_rsa
 
 script:
-  - hugo
   - python --version
-  - sudo pip install Pygments
+  - pip install Pygments
+  - hugo
 
 notifications:
     email:
