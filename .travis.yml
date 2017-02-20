@@ -21,7 +21,7 @@ script:
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -avz --delete-after --quiet $TRAVIS_BUILD_DIR/public/ dylan@box.dylanverheul.com:/home/user-data/www/dyve.net/
+  script: rsync -avz --delete --quiet $TRAVIS_BUILD_DIR/public/ dylan@box.dylanverheul.com:/home/user-data/www/dyve.net/
   on:
     branch: master
 
