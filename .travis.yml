@@ -4,7 +4,7 @@ language: go
 
 install:
 - sudo pip install Pygments
-- go get github.com/spf13/hugo
+- go get -v github.com/spf13/hugo
 
 addons:
   ssh_known_hosts: box.dylanverheul.com
