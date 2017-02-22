@@ -1,8 +1,7 @@
----
-layout: page
-title: About me
-subtitle: Who writes this stuff?
----
++++
+title = "About me"
+subtitle = "Who writes this stuff?"
++++
 
 My name is Dylan Verheul. I live in The Netherlands.
 
