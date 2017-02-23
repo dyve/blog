@@ -1,9 +1,9 @@
 +++
 date = "2017-02-18T07:43:00+00:00"
-draft = false
 categories = ["programming"]
 tags = ["django"]
-title = "A ModelAdmin for a slightly customized Django User model"
+title = "ModelAdmin for a custom Django User model"
+subtitle = "Automatically generate a section for extra fields"
 +++
 
 Django offers a customized User model. One of the preferred approaches to a custom User is to extend `AbstractUser`. When doing this there is a nice trick to get all the fields you add to `AbstractUser` in a separate section in the admin interface.
