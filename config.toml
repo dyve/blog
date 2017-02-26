@@ -1,4 +1,4 @@
-baseurl = "https://dyve.net"
+baseurl = "https://dyve.net/"
 languageCode = "en-us"
 title = "dyve.net"
 theme = "beautifulhugo"
