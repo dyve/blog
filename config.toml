@@ -1,7 +1,7 @@
 baseurl = "https://dyve.net/"
 languageCode = "en-us"
 title = "dyve.net"
-theme = "beautifulhugo"
+theme = "beautifuldylan"
 pygmentsUseClasses = true
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
