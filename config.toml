@@ -4,7 +4,7 @@ title = "dyve.net"
 theme = "plaindylan"
 pygmentsUseClasses = true
 #disqusShortname = "XXX"
-#googleAnalytics = "XXX"
+googleAnalytics = "UA-7785995-1"
 
 [Params]
   subtitle = "Personal Blog"
