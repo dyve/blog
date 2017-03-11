@@ -50,5 +50,5 @@ admin.site.register(User, UserAdminWithExtraFields)
 
 {{< /highlight >}}
 
-*This is an update of a Tumblr post I wrote on May 8, 2013 (3:14 PM).*
+*This is an update of a Tumblr post I originally wrote on May 8, 2013 (3:14 PM).*
 
