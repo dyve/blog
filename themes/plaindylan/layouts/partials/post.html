@@ -5,7 +5,8 @@
             <article role="main" class="blog-post">
                 {{ .Content }}
                 {{ if .Params.restored }}
-                <p><i>This post was restored from my Posterous/Tumblr archive on {{ .Params.restored}}, with minor modifications.</i></p>
+                <hr>
+                <p><i>Restored from Posterous/Tumblr archive on {{ .Params.restored}}, with minor modifications.</i></p>
                 {{ end }}
             </article>
 
