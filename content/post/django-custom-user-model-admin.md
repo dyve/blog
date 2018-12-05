@@ -1,11 +1,12 @@
 +++
-date = "2017-02-18T07:43:00+00:00"
 categories = ["programming"]
+date = "2017-02-18T07:43:00+00:00"
+draft = true
+subtitle = "Automatically generate a section for extra fields"
 tags = ["django"]
 title = "ModelAdmin for a custom Django User model"
-subtitle = "Automatically generate a section for extra fields"
-+++
 
++++
 Django offers a customized User model. One of the preferred approaches to a custom User is to extend `AbstractUser`. When doing this there is a nice trick to get all the fields you add to `AbstractUser` in a separate section in the admin interface.
 
 The method is to scan the parent for known fields, and add the fields that do not exist in the parent to a separate section. A full example is in the code below.
@@ -51,4 +52,3 @@ admin.site.register(User, UserAdminWithExtraFields)
 {{< /highlight >}}
 
 *This is an update of a Tumblr post I originally wrote on May 8, 2013 (3:14 PM).*
-
