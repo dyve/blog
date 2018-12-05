@@ -33,6 +33,16 @@ The past few years I have been playing with static site generators like Nikola. 
     </item>
     
     <item>
+      <title>ModelAdmin for a custom Django User model</title>
+      <link>https://dyve.net/post/django-custom-user-model-admin/</link>
+      <pubDate>Sat, 18 Feb 2017 07:43:00 +0000</pubDate>
+      <author>dylan@dyve.net (Dylan Verheul)</author>
+      <guid>https://dyve.net/post/django-custom-user-model-admin/</guid>
+      <description>Django offers a customized User model. One of the preferred approaches to a custom User is to extend AbstractUser. When doing this there is a nice trick to get all the fields you add to AbstractUser in a separate section in the admin interface.
+The method is to scan the parent for known fields, and add the fields that do not exist in the parent to a separate section. A full example is in the code below.</description>
+    </item>
+    
+    <item>
       <title>Supermoon, March 20 2011</title>
       <link>https://dyve.net/post/supermoon-march-2011/</link>
       <pubDate>Sun, 20 Mar 2011 07:51:00 +0000</pubDate>

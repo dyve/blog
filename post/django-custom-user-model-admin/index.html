@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>A Brand New Blog</title>
+  <title>ModelAdmin for a custom Django User model</title>
   
   <meta name="author" content="Dylan Verheul"/>
   <meta name="generator" content="Hugo 0.52" />
@@ -22,9 +22,9 @@
   <link rel="stylesheet" href="https://dyve.net//css/pygment_highlights.css" />
   
   
-  <meta property="og:title" content="A Brand New Blog" />
+  <meta property="og:title" content="ModelAdmin for a custom Django User model" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="/post/brand-new-blog/" />
+  <meta property="og:url" content="/post/django-custom-user-model-admin/" />
   <meta property="og:image" content="/img/avatar_outdoor.png" />
   
 </head>
@@ -91,15 +91,15 @@
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="post-heading">
-                <h1>A Brand New Blog</h1>
+                <h1>ModelAdmin for a custom Django User model</h1>
                 
                 
-                <h2 class="post-subheading">Powered by Hugo, GitHub and Travis CI</h2>
+                <h2 class="post-subheading">Automatically generate a section for extra fields</h2>
                 
                 
 
                 
-                <span class="post-meta">Posted on February 23, 2017</span>
+                <span class="post-meta">Posted on February 18, 2017</span>
                 
             </div>
         </div>
@@ -115,13 +115,47 @@
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
             <article role="main" class="blog-post">
-                <p>After the demise of <a href="https://en.wikipedia.org/wiki/Posterous">Posterous</a> in 2013, I moved my blog to <a href="https://tumblr.com">Tumblr</a> and mostly forgot about it. I didn&rsquo;t feel like investing time and energy in yet another platform that could be acquired and shut down. Also, Tumblr never felt right for what I wanted to do.</p>
+                <p>Django offers a customized User model. One of the preferred approaches to a custom User is to extend <code>AbstractUser</code>. When doing this there is a nice trick to get all the fields you add to <code>AbstractUser</code> in a separate section in the admin interface.</p>
 
-<p>The past few years I have been playing with static site generators like <a href="https://getnikola.com">Nikola</a>. I liked their ideas and simplicity. A while ago I found the best static site generator I&rsquo;d ever seen. It is <a href="https://gohugo.io">Hugo</a> and it makes generating simple personal and corporate sites a breeze.</p>
+<p>The method is to scan the parent for known fields, and add the fields that do not exist in the parent to a separate section. A full example is in the code below.</p>
 
-<p>So, here we are. I have moved all the content from my old blog to drafts in the new blog. Posts that are still interesting will be updated and republished. <a href="/post/django-custom-user-model-admin/">The first one is already up</a>. The Tumblr blog will be deleted. Out with the old, in with the new.</p>
+<p>This would also work if you replaced <code>AbstractUser</code> with <code>AbstractBaseUser</code> (an even simpler base class).</p>
 
-<p>This blog is now powered by Hugo, <a href="https://github.com">GitHub</a> and <a href="https://travis-ci.org">Travis CI</a> and hosted at <a href="https://www.transip.nl">TransIP</a>. The theme I started with is a slightly modified  <a href="https://github.com/1138-4EB/beautifulhugo">Beautiful Hugo</a>. I&rsquo;m planning a how-to article explaning how to connect Hugo, GitHub and Travis, since I had a few minor hiccups until it worked the way I wanted it to work.</p>
+<p>This ModelAdmin will add your extra fields to the bottom of the page:</p>
+
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">unicode_literals</span>
+
+<span class="kn">from</span> <span class="nn">django.contrib</span> <span class="kn">import</span> <span class="n">admin</span>
+<span class="kn">from</span> <span class="nn">django.contrib.auth.admin</span> <span class="kn">import</span> <span class="n">UserAdmin</span>
+<span class="kn">from</span> <span class="nn">django.contrib.auth.models</span> <span class="kn">import</span> <span class="n">AbstractUser</span>
+<span class="kn">from</span> <span class="nn">django.utils.translation</span> <span class="kn">import</span> <span class="n">ugettext_lazy</span> <span class="k">as</span> <span class="n">_</span>
+
+<span class="kn">from</span> <span class="nn">.models</span> <span class="kn">import</span> <span class="n">User</span>
+
+
+<span class="k">class</span> <span class="nc">UserAdminWithExtraFields</span><span class="p">(</span><span class="n">UserAdmin</span><span class="p">):</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">UserAdminWithExtraFields</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+
+        <span class="n">abstract_fields</span> <span class="o">=</span> <span class="p">[</span><span class="n">field</span><span class="o">.</span><span class="n">name</span> <span class="k">for</span> <span class="n">field</span> <span class="ow">in</span> <span class="n">AbstractUser</span><span class="o">.</span><span class="n">_meta</span><span class="o">.</span><span class="n">fields</span><span class="p">]</span>
+        <span class="n">user_fields</span> <span class="o">=</span> <span class="p">[</span><span class="n">field</span><span class="o">.</span><span class="n">name</span> <span class="k">for</span> <span class="n">field</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">_meta</span><span class="o">.</span><span class="n">fields</span><span class="p">]</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">fieldsets</span> <span class="o">+=</span> <span class="p">(</span>
+            <span class="p">(</span><span class="n">_</span><span class="p">(</span><span class="s1">&#39;Extra fields&#39;</span><span class="p">),</span> <span class="p">{</span>
+                <span class="s1">&#39;fields&#39;</span><span class="p">:</span> <span class="p">[</span>
+                    <span class="n">f</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="n">user_fields</span> <span class="k">if</span> <span class="p">(</span>
+                        <span class="n">f</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">abstract_fields</span> <span class="ow">and</span>
+                        <span class="n">f</span> <span class="o">!=</span> <span class="bp">self</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">_meta</span><span class="o">.</span><span class="n">pk</span><span class="o">.</span><span class="n">name</span>
+                    <span class="p">)</span>
+                <span class="p">],</span>
+            <span class="p">}),</span>
+        <span class="p">)</span>
+
+
+<span class="n">admin</span><span class="o">.</span><span class="n">site</span><span class="o">.</span><span class="n">register</span><span class="p">(</span><span class="n">User</span><span class="p">,</span> <span class="n">UserAdminWithExtraFields</span><span class="p">)</span></code></pre></div>
+
+<p><em>This is an update of a Tumblr post I originally wrote on May 8, 2013 (3:14 PM).</em></p>
 
                 
             </article>
@@ -129,14 +163,14 @@
             <ul class="pager blog-pager">
                 
                 <li class="previous">
-                    <a href="https://dyve.net/post/django-custom-user-model-admin/" data-toggle="tooltip" data-placement="top"
-                       title="ModelAdmin for a custom Django User model">&larr; Previous Post</a>
+                    <a href="https://dyve.net/post/supermoon-march-2011/" data-toggle="tooltip" data-placement="top"
+                       title="Supermoon, March 20 2011">&larr; Previous Post</a>
                 </li>
                 
                 
                 <li class="next">
-                    <a href="https://dyve.net/post/the-wake-1997-2017/" data-toggle="tooltip" data-placement="top"
-                       title="The Wake: 1997-2017">Next Post &rarr;</a>
+                    <a href="https://dyve.net/post/brand-new-blog/" data-toggle="tooltip" data-placement="top"
+                       title="A Brand New Blog">Next Post &rarr;</a>
                 </li>
                 
             </ul>
