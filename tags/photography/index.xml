@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photography on dyve.net</title>
+    <link>https://dyve.net/tags/photography/</link>
+    <description>Recent content in Photography on dyve.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dylan@dyve.net (Dylan Verheul)</managingEditor>
+    <webMaster>dylan@dyve.net (Dylan Verheul)</webMaster>
+    <lastBuildDate>Sun, 20 Mar 2011 07:51:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dyve.net/tags/photography/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Supermoon, March 20 2011</title>
+      <link>https://dyve.net/post/supermoon-march-2011/</link>
+      <pubDate>Sun, 20 Mar 2011 07:51:00 +0000</pubDate>
+      <author>dylan@dyve.net (Dylan Verheul)</author>
+      <guid>https://dyve.net/post/supermoon-march-2011/</guid>
+      <description>A picture of the supermoon we enjoyed in The Netherlands today.
+I used a Nikon P5000 compact camera mounted on a Leica APO 77 Televid spotting scope. The scope is mean for birdwatching, but it&amp;rsquo;s not bad for an occasional look at the skies. The scope was set to 20x magnification, camera&amp;rsquo;s optical zoom varies per shot, as does shutter time and other settings (I tried to capture both the details of the moon&amp;rsquo;s surface as well as the stunning brightness of the supermoon, so I experimented).</description>
+    </item>
+    
+  </channel>
+</rss>

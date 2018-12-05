@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stories on dyve.net</title>
+    <link>https://dyve.net/story/</link>
+    <description>Recent content in Stories on dyve.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dylan@dyve.net (Dylan Verheul)</managingEditor>
+    <webMaster>dylan@dyve.net (Dylan Verheul)</webMaster>
+    <lastBuildDate>Sat, 18 Feb 2017 13:55:52 +0100</lastBuildDate>
+    
+	<atom:link href="https://dyve.net/story/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Call Me Del</title>
+      <link>https://dyve.net/story/call-me-del/</link>
+      <pubDate>Sat, 18 Feb 2017 13:55:52 +0100</pubDate>
+      <author>dylan@dyve.net (Dylan Verheul)</author>
+      <guid>https://dyve.net/story/call-me-del/</guid>
+      <description>&amp;ldquo;My sister? I am standing in my gallery and I am holding your sigil. Will you come and speak with me?&amp;rdquo;
+Dream held on to the formless mass of constantly changing colours for a while, and then replaced it in its frame. He nodded and turned to leave the room, staring at his feet.
+&amp;ldquo;Uhm. I guess so. If you promise not to be mean to me or make me eat something I do not like or make me &amp;hellip; uhm &amp;hellip; make me &amp;hellip; well, just don&amp;rsquo;t do those things.</description>
+    </item>
+    
+  </channel>
+</rss>

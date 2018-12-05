@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on dyve.net</title>
+    <link>https://dyve.net/tags/</link>
+    <description>Recent content in Tags on dyve.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dylan@dyve.net (Dylan Verheul)</managingEditor>
+    <webMaster>dylan@dyve.net (Dylan Verheul)</webMaster>
+    <lastBuildDate>Sat, 18 Feb 2017 07:43:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dyve.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Django</title>
+      <link>https://dyve.net/tags/django/</link>
+      <pubDate>Sat, 18 Feb 2017 07:43:00 +0000</pubDate>
+      <author>dylan@dyve.net (Dylan Verheul)</author>
+      <guid>https://dyve.net/tags/django/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>https://dyve.net/tags/github/</link>
+      <pubDate>Thu, 23 Feb 2017 09:20:00 +0000</pubDate>
+      <author>dylan@dyve.net (Dylan Verheul)</author>
+      <guid>https://dyve.net/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://dyve.net/tags/hugo/</link>
+      <pubDate>Thu, 23 Feb 2017 09:20:00 +0000</pubDate>
+      <author>dylan@dyve.net (Dylan Verheul)</author>
+      <guid>https://dyve.net/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jquery</title>
+      <link>https://dyve.net/tags/jquery/</link>
+      <pubDate>Wed, 27 Jan 2010 06:51:00 +0000</pubDate>
+      <author>dylan@dyve.net (Dylan Verheul)</author>
+      <guid>https://dyve.net/tags/jquery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac</title>
+      <link>https://dyve.net/tags/mac/</link>
+      <pubDate>Fri, 11 Mar 2011 09:57:00 +0000</pubDate>
+      <author>dylan@dyve.net (Dylan Verheul)</author>
+      <guid>https://dyve.net/tags/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photography</title>
+      <link>https://dyve.net/tags/photography/</link>
+      <pubDate>Sun, 20 Mar 2011 07:51:00 +0000</pubDate>
+      <author>dylan@dyve.net (Dylan Verheul)</author>
+      <guid>https://dyve.net/tags/photography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travis</title>
+      <link>https://dyve.net/tags/travis/</link>
+      <pubDate>Thu, 23 Feb 2017 09:20:00 +0000</pubDate>
+      <author>dylan@dyve.net (Dylan Verheul)</author>
+      <guid>https://dyve.net/tags/travis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

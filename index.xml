@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>dyve.net on dyve.net</title>
+        <link>https://dyve.net/</link>
+        <description>Recent content in dyve.net on dyve.net</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <managingEditor>dylan@dyve.net (Dylan Verheul)</managingEditor>
+        <webMaster>dylan@dyve.net (Dylan Verheul)</webMaster>
+        <lastBuildDate>Sun, 26 Feb 2017 10:29:22 +0100</lastBuildDate>
+        <atom:link href="/" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>The Wake: 1997-2017</title>
+            <link>https://dyve.net/post/the-wake-1997-2017/</link>
+            <pubDate>Sun, 26 Feb 2017 10:29:22 +0100</pubDate>
+            <author>dylan@dyve.net (Dylan Verheul)</author>
+            <guid>https://dyve.net/post/the-wake-1997-2017/</guid>
+            <description>&lt;p&gt;In 1997 I started a website to learn HTML. It felt like I was kind of late to the party. &lt;a href=&#34;https://en.wikipedia.org/wiki/Mosaic_(web_browser)&#34;&gt;Mosaic&lt;/a&gt; had already come and gone. Internet Explorer was the next big thing. I remember thinking about a subject for my website. I was an avid reader of Neil Gaiman&amp;rsquo;s Sandman comics, and since these were quite popular online, I decided to make that my subject. The site went through some design iterations and internet addresses, before finding a permanent address: &lt;a href=&#34;https://dyve.net/sandman&#34;&gt;dyve.net/sandman&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For a brief while, my site was a hotspot of Sandman information. That made me immensely proud. Someone gave me Neil Gaiman&amp;rsquo;s e-mail address and I actually worked up the courage to e-mail him. A missed opportunity for a cup of coffee at a Fantasy Fair in The Netherlands still haunts me occasionally.&lt;/p&gt;
+
+&lt;p&gt;Writing The Wake taught me the basics of HTML. Maintenance on the Sandman Annotations taught me that background research is hard work, and that a smart audience will not and should not let you get away with laziness. Also, asking smart people their opinions can be a rather cathartic experience. I remember a particularly honest reply from Neil when I asked him about the quality of the Death Annotations. If you want to do something, invest the time and do it right. That&amp;rsquo;s the main lesson I learned I think. And I occasionally have to relearn it.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve always kept the site online, even though I stopped active development many years ago. Even a fantastic &lt;a href=&#34;http://www.neilgaiman.com/works/Comics/Sandman+Overture/&#34;&gt;Sandman Prequel&lt;/a&gt; couldn&amp;rsquo;t bother me to update the site. That&amp;rsquo;s when I started thinking about taking it offline. There&amp;rsquo;s still a good amount of visitors finding The Wake through Google and other links, but looking at it now, it&amp;rsquo;s piece of nostalgia that consists mostly of carefully copied images and texts, with an occasional addition of my own.&lt;/p&gt;
+
+&lt;p&gt;So, time to let it go. If you come looking for the site, you&amp;rsquo;ll probably end up at this post. A eulogy for The Wake, if you will.&lt;/p&gt;
+
+&lt;p&gt;I have archived the sources to a public GitHub repository. If you want to see an archived copy of a nice Sandman site, you can visit The Wake at &lt;a href=&#34;http://dyve.github.io/sandman/&#34;&gt;http://dyve.github.io/sandman/&lt;/a&gt;. It will probably work. If you want to use the original stuff I wrote, consider it &lt;a href=&#34;http://creativecommons.org/licenses/by/4.0/&#34;&gt;CC-BY&lt;/a&gt;. Note that quite a lot of it is actually copyrighted material, by DC Comics and possibly others.&lt;/p&gt;
+
+&lt;p&gt;One more thing. While archiving the site, I discovered that a piece of original fan fiction I wrote was accidentally taken offline years ago. And that people were actually wondering where it went. It&amp;rsquo;s a short story in the Sandman universe featuring Delirium and Dream, and it&amp;rsquo;s &lt;a href=&#34;https://dyve.net/story/call-me-del/&#34;&gt;back online now&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>A Brand New Blog</title>
+            <link>https://dyve.net/post/brand-new-blog/</link>
+            <pubDate>Thu, 23 Feb 2017 09:20:00 +0000</pubDate>
+            <author>dylan@dyve.net (Dylan Verheul)</author>
+            <guid>https://dyve.net/post/brand-new-blog/</guid>
+            <description>&lt;p&gt;After the demise of &lt;a href=&#34;https://en.wikipedia.org/wiki/Posterous&#34;&gt;Posterous&lt;/a&gt; in 2013, I moved my blog to &lt;a href=&#34;https://tumblr.com&#34;&gt;Tumblr&lt;/a&gt; and mostly forgot about it. I didn&amp;rsquo;t feel like investing time and energy in yet another platform that could be acquired and shut down. Also, Tumblr never felt right for what I wanted to do.&lt;/p&gt;
+
+&lt;p&gt;The past few years I have been playing with static site generators like &lt;a href=&#34;https://getnikola.com&#34;&gt;Nikola&lt;/a&gt;. I liked their ideas and simplicity. A while ago I found the best static site generator I&amp;rsquo;d ever seen. It is &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; and it makes generating simple personal and corporate sites a breeze.&lt;/p&gt;
+
+&lt;p&gt;So, here we are. I have moved all the content from my old blog to drafts in the new blog. Posts that are still interesting will be updated and republished. &lt;a href=&#34;https://dyve.net/post/django-custom-user-model-admin/&#34;&gt;The first one is already up&lt;/a&gt;. The Tumblr blog will be deleted. Out with the old, in with the new.&lt;/p&gt;
+
+&lt;p&gt;This blog is now powered by Hugo, &lt;a href=&#34;https://github.com&#34;&gt;GitHub&lt;/a&gt; and &lt;a href=&#34;https://travis-ci.org&#34;&gt;Travis CI&lt;/a&gt; and hosted at &lt;a href=&#34;https://www.transip.nl&#34;&gt;TransIP&lt;/a&gt;. The theme I started with is a slightly modified  &lt;a href=&#34;https://github.com/1138-4EB/beautifulhugo&#34;&gt;Beautiful Hugo&lt;/a&gt;. I&amp;rsquo;m planning a how-to article explaning how to connect Hugo, GitHub and Travis, since I had a few minor hiccups until it worked the way I wanted it to work.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>ModelAdmin for a custom Django User model</title>
+            <link>https://dyve.net/post/django-custom-user-model-admin/</link>
+            <pubDate>Sat, 18 Feb 2017 07:43:00 +0000</pubDate>
+            <author>dylan@dyve.net (Dylan Verheul)</author>
+            <guid>https://dyve.net/post/django-custom-user-model-admin/</guid>
+            <description>&lt;p&gt;Django offers a customized User model. One of the preferred approaches to a custom User is to extend &lt;code&gt;AbstractUser&lt;/code&gt;. When doing this there is a nice trick to get all the fields you add to &lt;code&gt;AbstractUser&lt;/code&gt; in a separate section in the admin interface.&lt;/p&gt;
+
+&lt;p&gt;The method is to scan the parent for known fields, and add the fields that do not exist in the parent to a separate section. A full example is in the code below.&lt;/p&gt;
+
+&lt;p&gt;This would also work if you replaced &lt;code&gt;AbstractUser&lt;/code&gt; with &lt;code&gt;AbstractBaseUser&lt;/code&gt; (an even simpler base class).&lt;/p&gt;
+
+&lt;p&gt;This ModelAdmin will add your extra fields to the bottom of the page:&lt;/p&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;__future__&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;unicode_literals&lt;/span&gt;
+
+&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;django.contrib&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;admin&lt;/span&gt;
+&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;django.contrib.auth.admin&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;UserAdmin&lt;/span&gt;
+&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;django.contrib.auth.models&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;AbstractUser&lt;/span&gt;
+&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;django.utils.translation&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;ugettext_lazy&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;_&lt;/span&gt;
+
+&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;.models&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;User&lt;/span&gt;
+
+
+&lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;UserAdminWithExtraFields&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;UserAdmin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+
+    &lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;fm&#34;&gt;__init__&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;args&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;**&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;kwargs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+        &lt;span class=&#34;nb&#34;&gt;super&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;UserAdminWithExtraFields&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;fm&#34;&gt;__init__&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;args&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;**&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;kwargs&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+        &lt;span class=&#34;n&#34;&gt;abstract_fields&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;field&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;field&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;AbstractUser&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;_meta&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fields&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+        &lt;span class=&#34;n&#34;&gt;user_fields&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;field&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;field&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;model&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;_meta&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fields&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+
+        &lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;fieldsets&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+            &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;_&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;Extra fields&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;),&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+                &lt;span class=&#34;s1&#34;&gt;&amp;#39;fields&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;
+                    &lt;span class=&#34;n&#34;&gt;f&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;f&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;user_fields&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;
+                        &lt;span class=&#34;n&#34;&gt;f&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;not&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;abstract_fields&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;and&lt;/span&gt;
+                        &lt;span class=&#34;n&#34;&gt;f&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;bp&#34;&gt;self&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;model&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;_meta&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pk&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;name&lt;/span&gt;
+                    &lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+                &lt;span class=&#34;p&#34;&gt;],&lt;/span&gt;
+            &lt;span class=&#34;p&#34;&gt;}),&lt;/span&gt;
+        &lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+
+
+&lt;span class=&#34;n&#34;&gt;admin&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;site&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;register&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;User&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;UserAdminWithExtraFields&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;This is an update of a Tumblr post I originally wrote on May 8, 2013 (3:14 PM).&lt;/em&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>Supermoon, March 20 2011</title>
+            <link>https://dyve.net/post/supermoon-march-2011/</link>
+            <pubDate>Sun, 20 Mar 2011 07:51:00 +0000</pubDate>
+            <author>dylan@dyve.net (Dylan Verheul)</author>
+            <guid>https://dyve.net/post/supermoon-march-2011/</guid>
+            <description>&lt;p&gt;A picture of the &lt;a href=&#34;https://en.wikipedia.org/wiki/Supermoon&#34;&gt;supermoon&lt;/a&gt; we enjoyed in The Netherlands today.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://dyve.net/img/20110320_supermoon.jpg&#34; class=&#34;img-responsive&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;I used a &lt;a href=&#34;http://imaging.nikon.com/products/imaging/lineup/digitalcamera/coolpix/performance/p5000/&#34; target=&#34;_blank&#34;&gt;Nikon P5000&lt;/a&gt; compact camera mounted on a Leica APO 77 Televid spotting scope. The scope is mean for birdwatching, but it&amp;rsquo;s not bad for an occasional look at the skies. The scope was set to 20x magnification, camera&amp;rsquo;s optical zoom varies per shot, as does shutter time and other settings (I tried to capture both the details of the moon&amp;rsquo;s surface as well as the stunning brightness of the supermoon, so I experimented).&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>Hex Color Picker</title>
+            <link>https://dyve.net/post/hex-color-picker/</link>
+            <pubDate>Fri, 11 Mar 2011 09:57:00 +0000</pubDate>
+            <author>dylan@dyve.net (Dylan Verheul)</author>
+            <guid>https://dyve.net/post/hex-color-picker/</guid>
+            <description>&lt;p&gt;&lt;a href=&#34;http://wafflesoftware.net/hexpicker/&#34;&gt;Hex Color Picker&lt;/a&gt; allows you to edit and view hexadecimal color codes in the standard Mac OS X color panel.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>A brief history of jQuery autocomplete</title>
+            <link>https://dyve.net/post/a-brief-history-of-jquery-autocomplete/</link>
+            <pubDate>Wed, 27 Jan 2010 06:51:00 +0000</pubDate>
+            <author>dylan@dyve.net (Dylan Verheul)</author>
+            <guid>https://dyve.net/post/a-brief-history-of-jquery-autocomplete/</guid>
+            <description>&lt;p&gt;Early 2005, I wrote what appears to be the first ever jQuery autocompleter. Several people used it, modified it, fixed bugs, made it better.  Notably &lt;a href=&#34;http://www.pengoworks.com/workshop/jquery/autocomplete.htm&#34;&gt;Dan G.  Switzer&lt;/a&gt;. &lt;a href=&#34;http://twitter.com/bassistance&#34; target=&#34;_blank&#34;&gt;J&amp;ouml;rn Zaffaerer&lt;/a&gt; (who I met last year and is a very nice guy) did a &lt;a href=&#34;http://bassistance.de/jquery-plugins/jquery-plugin-autocomplete/&#34;&gt;complete  rewrite&lt;/a&gt;, which depends on other jQuery plugins, and has a lot of  added functionality. When I needed some modifications, I took &lt;a href=&#34;http://www.pengoworks.com/workshop/jquery/autocomplete.htm&#34;&gt;Dan&amp;rsquo;s  version&lt;/a&gt; of my original and did some slight modifications of my own.&lt;/p&gt;
+
+&lt;p&gt;Then a lot of stuff happened, a lot of other autocompleters sppeared, jQuery UI (which is awesome) happened, and J&amp;ouml;rn is still adding cool stuff to his version. Why so many different autocompleters? I don&amp;rsquo;t know, apparently there  are a lot of people with different needs (no dependency on other  plugins, browser compatibility), and the various versions have their  minute differences. Just be glad that jQuery offers such a choice, and  pick the one you like best. Me, I&amp;rsquo;m just proud to be a part of this thing that somehow ended up at various weird locations (Mozilla, Barack Obama&amp;rsquo;s site during the election, and I think some of the code may have made it to the current whitehouse.gov, but I&amp;rsquo;m not sure).&lt;/p&gt;
+
+&lt;p&gt;A while back, I though my original project needed some work, and I cleaned up the code. I also gave this version a proper (versioned) home at Google Code. You can find it at:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://code.google.com/p/jquery-autocomplete/&#34;&gt;http://code.google.com/p/jquery-autocomplete/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Be sure to see if you really want this version. The official jQuery plugin can be found at &lt;a href=&#34;http://docs.jquery.com/Plugins/Autocomplete&#34;&gt;http://docs.jquery.com/Plugins/Autocomplete&lt;/a&gt;.&lt;/p&gt;
+</description>
+        </item>
+        
+        <item>
+            <title>Kicking off</title>
+            <link>https://dyve.net/post/kicking-off/</link>
+            <pubDate>Sun, 15 Jul 2007 09:09:00 +0000</pubDate>
+            <author>dylan@dyve.net (Dylan Verheul)</author>
+            <guid>https://dyve.net/post/kicking-off/</guid>
+            <description>&lt;p&gt;August 1 I will be switching jobs. This will mean that I am once more (among other things) a professional programmer. This time around the tools of the trade will be PHP, MySQL and JavaScript (with more than a touch of &lt;a href=&#34;http://www.jquery.com/&#34;&gt;jQuery&lt;/a&gt;). Also, I&amp;rsquo;ll be switching from Windows to Mac OS X (actually, I&amp;rsquo;m typing this entry on my brand new MacBook Pro).&lt;/p&gt;
+
+&lt;p&gt;I thought this would be a good time to convert this site to a live blog once more. I&amp;rsquo;ll document some Windows to Mac switching issues, share some startup stories (we&amp;rsquo;re starting a new company, and I&amp;rsquo;m sure some tales will be worth telling). And, most importantly, I&amp;rsquo;ll share some code, jQuery or otherwise.  I hope I can keep you amused for a while.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

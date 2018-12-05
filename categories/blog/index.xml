@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on dyve.net</title>
+    <link>https://dyve.net/categories/blog/</link>
+    <description>Recent content in Blog on dyve.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dylan@dyve.net (Dylan Verheul)</managingEditor>
+    <webMaster>dylan@dyve.net (Dylan Verheul)</webMaster>
+    <lastBuildDate>Thu, 23 Feb 2017 09:20:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dyve.net/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Brand New Blog</title>
+      <link>https://dyve.net/post/brand-new-blog/</link>
+      <pubDate>Thu, 23 Feb 2017 09:20:00 +0000</pubDate>
+      <author>dylan@dyve.net (Dylan Verheul)</author>
+      <guid>https://dyve.net/post/brand-new-blog/</guid>
+      <description>After the demise of Posterous in 2013, I moved my blog to Tumblr and mostly forgot about it. I didn&amp;rsquo;t feel like investing time and energy in yet another platform that could be acquired and shut down. Also, Tumblr never felt right for what I wanted to do.
+The past few years I have been playing with static site generators like Nikola. I liked their ideas and simplicity. A while ago I found the best static site generator I&amp;rsquo;d ever seen.</description>
+    </item>
+    
+  </channel>
+</rss>

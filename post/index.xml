@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on dyve.net</title>
+    <link>https://dyve.net/post/</link>
+    <description>Recent content in Posts on dyve.net</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>dylan@dyve.net (Dylan Verheul)</managingEditor>
+    <webMaster>dylan@dyve.net (Dylan Verheul)</webMaster>
+    <lastBuildDate>Sun, 26 Feb 2017 10:29:22 +0100</lastBuildDate>
+    
+	<atom:link href="https://dyve.net/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Wake: 1997-2017</title>
+      <link>https://dyve.net/post/the-wake-1997-2017/</link>
+      <pubDate>Sun, 26 Feb 2017 10:29:22 +0100</pubDate>
+      <author>dylan@dyve.net (Dylan Verheul)</author>
+      <guid>https://dyve.net/post/the-wake-1997-2017/</guid>
+      <description>In 1997 I started a website to learn HTML. It felt like I was kind of late to the party. Mosaic had already come and gone. Internet Explorer was the next big thing. I remember thinking about a subject for my website. I was an avid reader of Neil Gaiman&amp;rsquo;s Sandman comics, and since these were quite popular online, I decided to make that my subject. The site went through some design iterations and internet addresses, before finding a permanent address: dyve.</description>
+    </item>
+    
+    <item>
+      <title>A Brand New Blog</title>
+      <link>https://dyve.net/post/brand-new-blog/</link>
+      <pubDate>Thu, 23 Feb 2017 09:20:00 +0000</pubDate>
+      <author>dylan@dyve.net (Dylan Verheul)</author>
+      <guid>https://dyve.net/post/brand-new-blog/</guid>
+      <description>After the demise of Posterous in 2013, I moved my blog to Tumblr and mostly forgot about it. I didn&amp;rsquo;t feel like investing time and energy in yet another platform that could be acquired and shut down. Also, Tumblr never felt right for what I wanted to do.
+The past few years I have been playing with static site generators like Nikola. I liked their ideas and simplicity. A while ago I found the best static site generator I&amp;rsquo;d ever seen.</description>
+    </item>
+    
+    <item>
+      <title>ModelAdmin for a custom Django User model</title>
+      <link>https://dyve.net/post/django-custom-user-model-admin/</link>
+      <pubDate>Sat, 18 Feb 2017 07:43:00 +0000</pubDate>
+      <author>dylan@dyve.net (Dylan Verheul)</author>
+      <guid>https://dyve.net/post/django-custom-user-model-admin/</guid>
+      <description>Django offers a customized User model. One of the preferred approaches to a custom User is to extend AbstractUser. When doing this there is a nice trick to get all the fields you add to AbstractUser in a separate section in the admin interface.
+The method is to scan the parent for known fields, and add the fields that do not exist in the parent to a separate section. A full example is in the code below.</description>
+    </item>
+    
+    <item>
+      <title>Supermoon, March 20 2011</title>
+      <link>https://dyve.net/post/supermoon-march-2011/</link>
+      <pubDate>Sun, 20 Mar 2011 07:51:00 +0000</pubDate>
+      <author>dylan@dyve.net (Dylan Verheul)</author>
+      <guid>https://dyve.net/post/supermoon-march-2011/</guid>
+      <description>A picture of the supermoon we enjoyed in The Netherlands today.
+I used a Nikon P5000 compact camera mounted on a Leica APO 77 Televid spotting scope. The scope is mean for birdwatching, but it&amp;rsquo;s not bad for an occasional look at the skies. The scope was set to 20x magnification, camera&amp;rsquo;s optical zoom varies per shot, as does shutter time and other settings (I tried to capture both the details of the moon&amp;rsquo;s surface as well as the stunning brightness of the supermoon, so I experimented).</description>
+    </item>
+    
+    <item>
+      <title>Hex Color Picker</title>
+      <link>https://dyve.net/post/hex-color-picker/</link>
+      <pubDate>Fri, 11 Mar 2011 09:57:00 +0000</pubDate>
+      <author>dylan@dyve.net (Dylan Verheul)</author>
+      <guid>https://dyve.net/post/hex-color-picker/</guid>
+      <description>Hex Color Picker allows you to edit and view hexadecimal color codes in the standard Mac OS X color panel.</description>
+    </item>
+    
+    <item>
+      <title>A brief history of jQuery autocomplete</title>
+      <link>https://dyve.net/post/a-brief-history-of-jquery-autocomplete/</link>
+      <pubDate>Wed, 27 Jan 2010 06:51:00 +0000</pubDate>
+      <author>dylan@dyve.net (Dylan Verheul)</author>
+      <guid>https://dyve.net/post/a-brief-history-of-jquery-autocomplete/</guid>
+      <description>Early 2005, I wrote what appears to be the first ever jQuery autocompleter. Several people used it, modified it, fixed bugs, made it better. Notably Dan G. Switzer. J&amp;ouml;rn Zaffaerer (who I met last year and is a very nice guy) did a complete rewrite, which depends on other jQuery plugins, and has a lot of added functionality. When I needed some modifications, I took Dan&amp;rsquo;s version of my original and did some slight modifications of my own.</description>
+    </item>
+    
+    <item>
+      <title>Kicking off</title>
+      <link>https://dyve.net/post/kicking-off/</link>
+      <pubDate>Sun, 15 Jul 2007 09:09:00 +0000</pubDate>
+      <author>dylan@dyve.net (Dylan Verheul)</author>
+      <guid>https://dyve.net/post/kicking-off/</guid>
+      <description>August 1 I will be switching jobs. This will mean that I am once more (among other things) a professional programmer. This time around the tools of the trade will be PHP, MySQL and JavaScript (with more than a touch of jQuery). Also, I&amp;rsquo;ll be switching from Windows to Mac OS X (actually, I&amp;rsquo;m typing this entry on my brand new MacBook Pro).
+I thought this would be a good time to convert this site to a live blog once more.</description>
+    </item>
+    
+  </channel>
+</rss>
