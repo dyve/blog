@@ -1,7 +1,6 @@
 +++
 categories = ["programming"]
 date = "2017-02-18T07:43:00+00:00"
-draft = true
 subtitle = "Automatically generate a section for extra fields"
 tags = ["django"]
 title = "ModelAdmin for a custom Django User model"
